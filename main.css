@@ -1,0 +1,96 @@
+body{
+    background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.astronauts{
+    margin-left:0;
+    height: 100%;
+    display:flex;
+    justify-content:left;
+}
+
+.astronauts div{
+    width: 35%;
+    height:100%;
+}
+
+#As1{
+    height:60%;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+}
+
+@keyframes example1 {
+    0%   {top:0%;}
+    50%  {top:20%;}
+    100% {top:0%;}
+}
+
+#As2{
+    height: 40%;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes examples2 {
+    0% {top:10%}
+    50% {top:30%}
+    100% {top:10%}
+}
+
+
+.register{
+    width: 30%;
+    height: fit-content;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 2%;
+    display: grid;
+    place-items: center;
+}
+
+.register h1{
+    padding:5%;
+    text-align: center;
+}
+
+.register form{
+    padding: 5%;
+    line-height: 1.5;
+}
+
+#country, #num, #email{
+    width: 100%;
+}
+
+#country{
+    border-radius: 0;
+    background-color: white;
+}
+
+
+#submit{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: darkorange;
+}
+
+
+
+
+

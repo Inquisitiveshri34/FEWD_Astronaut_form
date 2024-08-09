@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Astronaut Form</title>
+</head>
+<body>
+    <div class="astronauts">
+        <div>
+        <img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-1%5B1%5D.png" alt="Astronaut1" id="As1">
+        </div>
+        <div>
+        <img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-2%5B1%5D.png" alt="Astronaut2" id="As2">
+        </div>
+    </div>
+
+
+    
+    <div class="register">
+        <h1>Rocket around the moon with your BFFs</h1>
+        <form>
+            <div>
+                <label>Departure Country</label>
+                <br>
+                <select id="country" name="country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UAE">UAE</option>
+                </select>
+            </div>
+            <div>
+                <label>No. of Space Travellers</label>
+                <br>
+                <input type="number" id="num" name="num" min="0" max="100">
+            </div>
+            <div>
+                <label>Your email</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="ilovespace@gmail.com">
+            </div>
+            <div>
+                <label>Do you wanna rent a space suit?</label>
+                <br>
+                <input type="radio" id="rent" name="rent" value="yes">
+                <label>Yes, Please</label>
+                <input type="radio" id="rent" name="rent" value="no">
+                <label>No, I have my own</label>
+            </div>
+            <div>
+            <input type="submit" id="submit" name="submit" value="TAKE US TO SPACE">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
