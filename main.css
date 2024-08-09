@@ -12,7 +12,7 @@ body{
 .astronauts{
     margin-left:0;
     height: 100%;
-    display:flex;
+    display: flex;
     justify-content:left;
 }
 
@@ -25,7 +25,7 @@ body{
     height:60%;
     position: relative;
     animation-name: example1;
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
     animation-direction: alternate;  
 }
@@ -37,18 +37,19 @@ body{
 }
 
 #As2{
-    height: 40%;
+    height:40%;
     position: relative;
+    left: 20%;
     animation-name: example2;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: alternate;  
 }
 
-@keyframes examples2 {
-    0% {top:10%}
-    50% {top:30%}
-    100% {top:10%}
+@keyframes example2 {
+    0%   {top:30%;}
+    50%  {top:40%;}
+    100% {top:30%;}
 }
 
 
